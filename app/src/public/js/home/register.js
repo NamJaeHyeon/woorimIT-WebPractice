@@ -6,7 +6,7 @@ const id = document.querySelector("#id"),
   confirmPsword = document.querySelector("#confirm-psword"),
   registerBtn = document.querySelector("#button");
 registerBtn.addEventListener("click", register);
-
+console.log("hello register");
 function register(){
   const req = {
     id: id.value,
